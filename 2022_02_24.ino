@@ -15,8 +15,8 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 ///////////////////////////////////////////////////////////////////////////////
 // Replace with your network credentials
-const char* ssid = "SFR_A1D0";
-const char* password = "Granville";
+const char* ssid = "***";
+const char* password = "***";
 
 const char* serverName = "http://192.168.1.97/Meteo/postStation.php";
 String apiKeyValue = "tPmAT5Ab3j7F9";
